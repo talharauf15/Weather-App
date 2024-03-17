@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.container:hover {
+    box-shadow: 5px 5px 5px #00000056;
+}
+
+input[type="text"] {
+    color: #000000;
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid mediumspringgreen;
+    border-radius: 5px;
+}
+
+button {
+    
+    background-color: mediumspringgreen;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.6em 2em;
+    
+} 
+
+button:hover {
+    color: #212121;
+  }
+  
+button:active {
+    border-color: teal;
+  }
+
+
+  /* COPYRIGHT */
+
+.copyright{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--main-padding);
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .copyright p a{
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+  }

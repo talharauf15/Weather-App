@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather App</h1>
+      <form>
+        <input
+          type="text"
+          id="cityInput"
+          placeholder="Enter a city"
+          required
+          on
+        />
+        <button
+          id="searchButton"
+          type="button"
+          onclick="fetchData(cityInput.value)"
+        >
+          Search
+        </button>
+        <div id="weatherInfo"></div>
+      </form>
+    </div>
+    <section class="copyright">
+      <p>
+        Made with ❤️ by
+        <a href="https://github.com/talharauf15" target="_blank">Talha Rauf</a>
+      </p>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
